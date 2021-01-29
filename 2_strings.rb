@@ -4,4 +4,9 @@ b = "otro string"
 puts a.length
 puts b.length
 #string de multiples líneas
-puts c = "esto es \nun string\n de multiples líneas"
+ c = "esto es \nun string\nde multiples líneas"
+ puts c
+
+ age = 37
+
+ puts "mi edad es #{age}"
