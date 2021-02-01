@@ -1,0 +1,4 @@
+n = ARGV[0].to_i
+p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet porta ex. Fusce elementum neque quis mollis egestas. Mauris consequat ante odio, et fringilla justo bibendum vitae. Aliquam eget mauris tincidunt turpis sagittis pulvinar. Sed ex ex, congue id ligula vel, dapibus egestas ante. Donec molestie nulla id nulla tempus tempus. Maecenas velit nisl, tempor non blandit posuere, posuere vel odio. Etiam ultrices, libero eget dictum faucibus, quam lectus malesuada leo, id porta nisl orci eu erat. Donec commodo ipsum velit, luctus pharetra justo mollis congue. Vivamus vitae laoreet arcu. Nam nec tortor tempus, sagittis eros ut, maximus eros. Etiam semper nisl mi, non imperdiet orci lobortis in. Praesent tincidunt diam ante, sed pretium erat facilisis sit amet. Proin mattis maximus nibh, dictum mollis nunc euismod et."
+
+n.times { puts "\n#{p}\n" }
